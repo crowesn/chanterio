@@ -172,6 +172,10 @@
   width:         calc(45% - (#{$spacing-unit} / 2));
 }
 
+.cc {
+  float: right;
+}
+
 @include media-query($on-laptop) {
   .footer-col-1,
   .footer-col-2 {
@@ -190,6 +194,10 @@
     float: none;
     width: -webkit-calc(100% - (#{$spacing-unit} / 2));
     width:         calc(100% - (#{$spacing-unit} / 2));
+  }
+  .cc {
+    float: left;
+    padding-left: 20px;
   }
 }
 
