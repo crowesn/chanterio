@@ -24,7 +24,7 @@ chirp_username: crowesn
 description: "Portfolio and notes from Sean Crowe, an academic librarian & web developer living and working in Dayton, Ohio"
 author: "Sean Crowe"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://chanter.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  crowesn
 show_excerpts: true
 google_analytics: UA-75790524-1
