@@ -213,6 +213,7 @@
 
 .page-heading {
   @include relative-font-size(2);
+  padding-left: 20px;
 }
 
 .post-list-heading {
