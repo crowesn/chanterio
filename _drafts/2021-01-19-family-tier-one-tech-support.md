@@ -1,0 +1,22 @@
+---
+layout: post
+permalink: /posts/:year-:month-:day-:title:output_ext
+---
+
+This year we moved our family back to the Dayton area to be closer to extended family. There are babies being born, chances to lend a hand with siblings and aging parents, I am super happy to be back in Dayton, it feels like coming home. We have a goal to try all of the Dayton style pizza places, my daughter's favorite so far is the super salty crust at [Cassanos](https://www.cassanos.com). 
+
+When we lived in Cincinnati, I spent a good amount of time on the phone doing tech support for family--laptops, printing, iPhones, iPads, iPads ... iPads. Some of the support required a visit, an hour drive for what were often simple fixes that were not really logistically possible at distance. Even now that we have moved closer, it's frustrating for them to have to wait for a fix and for me to sometimes have to interrupt another activity for tech support. I've been thinking about way to pre-empt problems and better manage devices. 
+
+Over the last couple of months, one of my parents has managed to either forget their passcode or reset it without realizing and locking themselves out of the device. The iPad is used mostly for Netflix viewing, light web-browsing, and email, so a factory reset was not the end of the world--but after the second time, I wondered about ways to keep some stability with the device through updates. The devices were set to update automatically and I noticed that along with the updates there were prompts to activate fingerprint and face ID or other authentication options. Even when resetting the passcode, the options default to a six digit code--my parents have habitual four digit codes and a reluctance to change them. I tried deactiving the passcodes completely, but they would somehow manage to be reactivated, often to a code that they could not recall, requiring a factory reset. Additionally, we have had a couple close calls with scam emails on the iPad; I wanted a way to cut down on phishing and other fraudulent messages. 
+
+Incidentally, we use MacBooks on my team at the Libraries and not too long ago, we were permitted to self-manage our devices leading  to a kind of wild-west and self-reliance for our systems. It worked okay and we had minimal problems so I was initially annoyed at the prospect of having management (nanny) software installed on my new laptop. But, after reading about [several](https://arstechnica.com/information-technology/2020/09/patient-dies-after-ransomware-attack-reroutes-her-to-remote-hospital/) hospital ransomeware cases, I am okay with some bumpers if it means more security for the university.         
+
+Anyway, at work, we were recently issued new laptops with minimal [JAMF](https://www.jamf.com) management, leading me to first look into enterprise device management options, but with little luck. Real control requires institutional licences, business infrasstructure & accounting, too much overhead. Reading further, I wondered if there might not be some built-in options in iOS that could be useful. I discovered the Family Groups and the Screentime features, which offer the ability to limit functionality on accounts for minors. Restrictions can include **preventing passcode changes** as well as system updates and iTunes & App Store purchases, 
+
+To setup this ad-hoc device administration, I created a child's iCloud account and added to my family group. I logged into the iPad using this new child's account and activated the Screentime management option, setting a seperate *parent* passcode lock for Screentime. 
+
+I configured the iPad with the familiar apps and layout as well as the familiar passcode. Finally, I restricted new app installs, and basically locked down the iPad. As a bonus I was also able to add a fresh iCloud email account, without any of the spammy/scammy messages. 
+
+It's been at least a month now since rolling this out and we haven't encountered any issues. Since these are fairly significant restrictions, I made sure to discuss the changes I was making and establish consent. I think they are happy with the stability. I wrote this post because I wasn't able to find very much literature on device management for seniors, especially around iPads. I think cases can very but this approach is working well so far for us, partly because we have close relationship with well established trust. YMMV.
+
+-Sean
