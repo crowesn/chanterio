@@ -3,7 +3,7 @@ layout: post
 permalink: /posts/:year-:month-:day-:title:output_ext
 ---
 
-This year we moved back to the Dayton area to be closer to extended family. There are babies being born, chances to lend a hand with siblings and aging parents, I am super happy to be back in Dayton, it feels like coming home. We have a goal to try all of the Dayton style pizza places, my daughter's favorite so far is the super salty crust at [Cassanos](https://www.cassanos.com). 
+We moved back to the Dayton area to be closer to extended family. There are babies being born, chances to lend a hand with siblings and aging parents, I am super happy to be back in Dayton, it feels like coming home. We have a goal to try all of the Dayton style pizza places, my daughter's favorite so far is the super salty crust at [Cassanos](https://www.cassanos.com). 
 
 When we lived in Cincinnati, I spent a good amount of time on the phone doing tech support for family--laptops, printing, iPhones, iPads, iPads ... iPads. Some of the support required a visit, an hour drive for what were often simple fixes that were not really logistically possible at distance. Even now that we have moved closer, it is frustrating for them to have to wait for a fix and for me to sometimes have to interrupt another activity for tech support. I have been thinking about way to preempt problems and better manage devices. 
 
